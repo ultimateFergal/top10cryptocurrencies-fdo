@@ -1,3 +1,7 @@
+/**
+ * Mock data for unit tests
+ */
+
 export const cryptosDataMock = [
     {
        "id":"bitcoin",

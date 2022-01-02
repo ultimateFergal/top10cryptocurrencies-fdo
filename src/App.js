@@ -86,6 +86,11 @@ function App() {
       </Header>
       <Body>
         <Image src={logo} alt="react-logo" />
+        <div className="flex items-start justify-between p-5 border border-solid border-blueGray-200 rounded-t text-orange-500">
+          <h3 className="text-3xl font-semibold">
+            TOP TEN CRYPTOCURRENCIES
+          </h3>
+        </div>
         {isModalOpen &&
           <Modal
             openModal={setIsModalOpen} 
